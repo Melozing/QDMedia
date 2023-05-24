@@ -29,7 +29,7 @@ function AppProject() {
               }}
             >
               <div className="team-image">
-                <Image
+                <image
                   width={350}
                   height={293}
                   src="/images/projects/page3.png"
@@ -67,7 +67,7 @@ function AppProject() {
               }}
             >
               <div className="team-image">
-                <Image
+                <image
                   width={350}
                   height={293}
                   src="/images/projects/youtube1.png"
@@ -105,7 +105,7 @@ function AppProject() {
               }}
             >
               <div className="team-image">
-                <Image
+                <image
                   width={350}
                   height={293}
                   src="/images/projects/page2.png"
