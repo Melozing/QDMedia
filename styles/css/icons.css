@@ -13,7 +13,7 @@ Version: 4.0
     url("../fonts/LineIcons.woff2") format("woff2"),
     url("../fonts/LineIcons.woff") format("woff"),
     url("../fonts/LineIcons.ttf") format("truetype"),
-    url("../fonts/lineIcons.svg") format("svg");
+    url("../fonts/lineicons.svg") format("svg");
 }
 
 /* base class */
