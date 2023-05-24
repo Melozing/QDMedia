@@ -32,7 +32,7 @@ function AppProject() {
                 <Image
                   width={350}
                   height={293}
-                  src="/images/projects/page-2.png"
+                  src="/images/projectQD/page-2.png"
                   alt="Projects"
                 />
                 <div className="social">
@@ -70,7 +70,7 @@ function AppProject() {
                 <Image
                   width={350}
                   height={293}
-                  src="/images/projects/youtube-1.png"
+                  src="/images/projectQD/youtube-1.png"
                   alt="Projects"
                 />
                 <div className="social">
@@ -108,7 +108,7 @@ function AppProject() {
                 <Image
                   width={350}
                   height={293}
-                  src="/images/projects/page-1.png"
+                  src="/images/projectQD/page-1.png"
                   alt="Projects"
                 />
                 <div className="social">
