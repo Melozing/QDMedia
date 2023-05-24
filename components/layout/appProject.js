@@ -33,7 +33,7 @@ function AppProject() {
                   width={350}
                   height={293}
                   src="/images/projects/page3.png"
-                  alt="Team"
+                  alt="Projects"
                 />
                 <div className="social">
                   <ul>
@@ -71,7 +71,7 @@ function AppProject() {
                   width={350}
                   height={293}
                   src="/images/projects/youtube1.png"
-                  alt="Team"
+                  alt="Projects"
                 />
                 <div className="social">
                   <ul>
@@ -109,7 +109,7 @@ function AppProject() {
                   width={350}
                   height={293}
                   src="/images/projects/page2.png"
-                  alt="Team"
+                  alt="Projects"
                 />
                 <div className="social">
                   <ul>
