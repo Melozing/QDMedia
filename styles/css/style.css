@@ -226,6 +226,10 @@ p {
 /*===========================
 	Project  
 ===========================*/
+.-z-10 {
+  z-index: -10;
+}
+
 .single-team {
   -webkit-box-shadow: 0 0 30px 0 rgba(167, 167, 167, 0.16);
   -moz-box-shadow: 0 0 30px 0 rgba(167, 167, 167, 0.16);
@@ -940,6 +944,7 @@ p {
 @media (max-width: 767px) {
   .header-hero-image img {
     max-width: 100%;
+    height: auto;
   }
 }
 

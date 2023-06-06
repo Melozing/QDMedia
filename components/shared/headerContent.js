@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import AppParticles from "../layout/appParticles";
 
 function HeaderContent() {
   return (
@@ -49,7 +50,9 @@ function HeaderContent() {
           </div>
         </div>
       </div>
-      <div id="particles-1" className="particles"></div>
+      <div className="particles position-absolute w-100 h-100 top-0 left-0 -z-10 overflow-hidden">
+        <AppParticles />
+      </div>
     </div>
   );
 }
