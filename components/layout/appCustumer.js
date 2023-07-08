@@ -28,7 +28,7 @@ const AppCustumer = () => {
   };
 
   return (
-    <section id="testimonial" className="testimonial-area pt-120">
+    <section id="testimonial" className="testimonial-area pt-120 bg-white">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-5">

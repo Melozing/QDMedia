@@ -9,7 +9,7 @@ import BackToTop from "./backToTop";
 import { useEffect } from "react";
 import FooterComponents from "./footer";
 
-const PageWrapperUse = ({ children }) => {
+const PageWrapperUse = ({ children, pageTitle }) => {
   useEffect(() => {
     if (typeof window !== "undefined") {
       const WOW = require("wowjs");
@@ -25,7 +25,7 @@ const PageWrapperUse = ({ children }) => {
         <LoaderComponents />
         <header className="header-area">
           <HeaderNav />
-          <HeaderContent />
+          <HeaderContent title={pageTitle} />
         </header>
         {children}
       </main>

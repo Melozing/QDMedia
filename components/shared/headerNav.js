@@ -133,6 +133,11 @@ function HeaderNav() {
                       Xây Kênh
                     </Link>
                   </li>
+                  <li className="nav-item">
+                    <Link href="/thong-tin" data-target="thong-tin-section">
+                      Thông tin
+                    </Link>
+                  </li>
                 </ul>
               </div>
 

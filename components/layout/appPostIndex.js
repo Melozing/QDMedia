@@ -2,7 +2,7 @@ import React from "react";
 
 function AppPostIndex() {
   return (
-    <section id="features" className="services-area pt-120">
+    <section id="features" className="services-area pt-120 bg-white">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-10">

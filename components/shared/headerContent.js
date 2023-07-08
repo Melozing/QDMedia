@@ -3,11 +3,11 @@ import Image from "next/image";
 import Link from "next/link";
 import AppParticles from "../layout/appParticles";
 
-function HeaderContent() {
+function HeaderContent({ title }) {
   return (
     <div
       id="home"
-      className="header-hero bg_cover"
+      className="header-hero bg_cover bg-white"
       style={{ backgroundImage: "url(/images/header/banner-bg.svg)" }}
     >
       <div className="container">
@@ -19,7 +19,7 @@ function HeaderContent() {
                 data-wow-duration="1.3s"
                 data-wow-delay="0.5s"
               >
-                Mang Sự Hiệu Quả Đến Với Khách Hàng
+                {title}
               </h2>
               <Link
                 href="tel:+84931372443"

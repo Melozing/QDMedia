@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function FooterComponents() {
   return (
-    <footer id="footer" className="footer-area pt-120">
+    <footer id="footer" className="footer-area pt-120 bg-white">
       <div className="container">
         <div
           className="subscribe-area wow fadeIn opacity-0"

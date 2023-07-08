@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <PageWrapperUse>
+    <PageWrapperUse pageTitle={"Mang Sự Hiệu Quả Đến Với Khách Hàng"}>
       <AppPostIndex />
       <AppProject />
       <AppCustumer />

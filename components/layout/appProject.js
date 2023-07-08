@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function AppProject() {
   return (
-    <section id="team" className="team-area pt-120">
+    <section id="team" className="team-area pt-120 bg-white">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-5">
